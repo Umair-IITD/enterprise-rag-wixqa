@@ -1,0 +1,3 @@
+Dataset,Context Recall,Optimal Chunk,Optimal Overlap,Optimal k,Observation
+WixQA-ExpertWritten,0.42,300,60,3,Retrieval highly consistent; expert queries align well with KB vocabulary
+WixQA-Simulated,0.88,300,60,3,Slight drop in recall; informal phrasing leads to vocabulary mismatch with KB

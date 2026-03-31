@@ -1,0 +1,3 @@
+System,Dataset,Context Recall,F1,ROUGE-1,ROUGE-2,Factuality
+Baseline RAG,WixQA-ExpertWritten,0.3,0.2371,0.2533,0.1476,0.65
+Baseline RAG,WixQA-Simulated,0.8,0.2007,0.2478,0.13,0.9

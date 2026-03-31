@@ -1,0 +1,9 @@
+System,Dataset,Context Recall,F1,ROUGE-1,ROUGE-2,Factuality
+Baseline RAG,WixQA-ExpertWritten,0.3,0.2371,0.2533,0.1476,0.65
+Baseline RAG,WixQA-Simulated,0.8,0.2007,0.2478,0.13,0.9
++ Semantic Chunking,WixQA-ExpertWritten,0.0,0.1574,0.1651,0.0675,0.25
++ Semantic Chunking,WixQA-Simulated,0.75,0.0637,0.0843,0.0057,0.75
++ Reranking,WixQA-ExpertWritten,0.3,0.2456,0.2686,0.1428,0.55
++ Reranking,WixQA-Simulated,0.9,0.1607,0.1973,0.09,0.7
++ Query Rewriting,WixQA-ExpertWritten,0.3,0.2042,0.2193,0.117,0.6
++ Query Rewriting,WixQA-Simulated,0.9,0.1974,0.2346,0.1333,0.85

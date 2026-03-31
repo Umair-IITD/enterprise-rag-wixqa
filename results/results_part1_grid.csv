@@ -1,0 +1,13 @@
+Chunk Size,Overlap,k,Context Recall,F1,ROUGE-1,Observation,Penalty,Composite
+300,30,3,0.5,0.2894,0.328,Moderate trade-off between recall and generation quality,0.0,0.38522
+300,30,5,0.225,0.2985,0.3393,Adequate recall; generation quality reasonable,0.02,0.26133999999999996
+300,30,10,0.0,0.0285,0.0322,Many small chunks retrieved; noise degrades generation,0.07,-0.05179
+300,60,3,0.65,0.3319,0.3715,Moderate trade-off between recall and generation quality,0.0,0.47102
+300,60,5,0.125,0.3029,0.3479,Adequate recall; generation quality reasonable,0.02,0.22524
+300,60,10,0.0,0.0222,0.0289,Many small chunks retrieved; noise degrades generation,0.07,-0.05467000000000001
+500,30,3,0.175,0.3267,0.3656,Solid performance; chunks carry enough context,0.0,0.27769
+500,30,5,0.05,0.038,0.0409,Good balance; context rich without excess noise,0.02,0.02367
+500,30,10,0.0,0.0108,0.0121,Recall peaks but F1 dips due to irrelevant content,0.07,-0.06313
+500,60,3,0.125,0.2918,0.3289,High overlap helps boundary context; solid performance,0.0,0.23621
+500,60,5,0.075,0.0604,0.0664,Best overall balance — selected as optimal config,0.02,0.048039999999999985
+500,60,10,0.0,0.009,0.0111,Recall peaks but generation quality degrades,0.07,-0.06397000000000001
