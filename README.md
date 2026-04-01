@@ -2,6 +2,12 @@
 
 A production-style Retrieval-Augmented Generation system built on the WixQA benchmark (6,221 Wix Help Center articles). The pipeline covers the full cycle: knowledge base ingestion, hyperparameter search, retrieval evaluation, generation evaluation, and a comparative study of three system improvements.
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Groq](https://img.shields.io/badge/Groq-API-orange?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48L3N2Zz4=)](https://console.groq.com/)
+[![LLaMA](https://img.shields.io/badge/Meta-LLaMA%203-blueviolet)](https://llama.meta.com/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ---
 
 ## What This Project Does
